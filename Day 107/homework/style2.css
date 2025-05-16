@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: plum;
+    
+}
+
+.div1{
+    width: 500px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.img1{
+    width: 100px;
+    border-radius: 100%;
+}
+.maindiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+}
