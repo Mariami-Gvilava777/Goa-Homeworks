@@ -1,28 +1,14 @@
-# 1) შექმენით სია და დაამატეთ რამდენიმე სახელი. გამოიყენეთ sorted() ფუნქცია, რომ ამ სახელების პირველი ასოს მიხედვით დალაგდეს ეს სახელები (ანბანის მიხედვით)
+#1) Create a list and add some names. Use the sorted() function to sort the names by the first letter of each name (alphabetically).
 
-# 2) პირველი დავალება გაიმეორეთ, ოღონდ მიღებული შედეგი Indexing-ის საშუალებით შეაბრუნეთ.
+names = ["Vika","Mari","Nino","andria"]
+print(sorted(names))
 
-# 3) შექმენით რიცხვების სია და დაამატეთ რიცხვები კლების მიხედვით, თქვენი მიზანი იქნება ეს რიცხვები ზრდადობის მიხედვით დაალაგოთ.
+#Create a list of numbers and add the numbers in descending order, your goal will be to sort these numbers in ascending order.
 
-# 4) შექმენით რიცხვების სია და დაამატეთ  მინიმუმ 10 რიცხვი ზრდადობის მიხედვით, თქვენი მიზანი იქნება ეს რიცხვები კლებადობის მიხედვით დაალაგოთ
+Num = [3,5,1,9,5]
+print(sorted(Num))[::-1]
 
+#Create a list of numbers and add at least 10 numbers in ascending order, your goal will be to sort these numbers in descending order.
 
-#1)# mylist = ["Mari", "Ani", "Nia", "Lika", "Gio", "Mate", ]
-# print(sorted(mylist))
-
-
- #2)# mylist = ["Mari", "Ani", "Nia", "Lika", "Gio", "Mate", ]
-# print(sorted(mylist)[::-1])
-
-
- #3)# mylist = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
-# print(sorted(mylist))
-
-
-mylist = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(sorted(mylist))
-
-
-
-
-
+Num = [3,5,1,9,5,0,16,89,72,34,12,456,23]
+print(sorted(Num))[::+1]
